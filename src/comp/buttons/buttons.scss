@@ -1,0 +1,28 @@
+.btns {
+  display: flex;
+  color: white;
+}
+
+.btn {
+  flex: 1;
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 3rem;
+  opacity: 0.7;
+  transition: 0.4s;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.btns__plus {
+  background: green;
+}
+
+.btns__minus {
+  background-color: red;
+}
+
+.btns__reset {
+  background-color: gray;
+}
